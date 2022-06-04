@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:googleplay="https://www.google.com/schemas/play-podcasts/1.0/play-podcasts.xsd" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title>hupstream</title>
+    <link>https://www.youtube.com/channel/UCzNolHig0VbauCEGbj0PHrg</link>
+    <description>hupstream is a France-based Open Source engineering Studio.
+
+We help people and companies make the most of Open Source and Linux: tools, technologies, communities, collaboration and development practices.
+
+We offer custom Linux systems and software package design, setup and maintenance for your projects. We can help your team with the right, solid tools to build and maintain their own Linux distribution.
+
+We organize training sessions and developers meeting events (Kernel Recipes &amp; Distro Recipes).</description>
+    <generator>utipod</generator>
+    <image>
+      <url>https://yt3.ggpht.com/ytc/AKedOLTfjg0A5YAtrcGyH0VE6B3ANPZh_I4wwZgEtsww=s0</url>
+      <title>hupstream</title>
+      <link>https://www.youtube.com/channel/UCzNolHig0VbauCEGbj0PHrg</link>
+    </image>
+    <item>
+      <description><![CDATA[Since the dawn of time, Linux has had to make do with inferior IO interfaces. Native Linux AIO supports only a niche application class (O_DIRECT), and even for that use case, it’s far too slow for modern storage. This talk will detail io_uring, a modern IO interface for Linux, that’s both fully featured and performant.
+Jens Axboe]]></description>
+      <category><![CDATA[Science & Technology]]></category>
+      <title><![CDATA[Kernel Recipes 2019 - Faster IO through io_uring]]></title>
+      <guid>-5T4Cjw46ys</guid>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 -0000</pubDate>
+      <source>https://www.youtube.com/channel/UCzNolHig0VbauCEGbj0PHrg</source>
+      <author>hupstream</author>
+      <link>https://www.youtube.com/watch?v=-5T4Cjw46ys</link>
+      <enclosure url="http://174.93.162.91:8080/UCzNolHig0VbauCEGbj0PHrg/-5T4Cjw46ys.mkv" length="201958114" type="video/x-matroska"/>
+      <itunes:image href="https://i.ytimg.com/vi_webp/-5T4Cjw46ys/sddefault.webp"/>
+    </item>
+  </channel>
+</rss>
