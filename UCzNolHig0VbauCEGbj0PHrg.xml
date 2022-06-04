@@ -26,8 +26,40 @@ Jens Axboe]]></description>
       <source>https://www.youtube.com/channel/UCzNolHig0VbauCEGbj0PHrg</source>
       <author>hupstream</author>
       <link>https://www.youtube.com/watch?v=-5T4Cjw46ys</link>
-      <enclosure url="http://174.93.162.91:8080/UCzNolHig0VbauCEGbj0PHrg/-5T4Cjw46ys.mkv" length="201958114" type="video/x-matroska"/>
+      <enclosure url="http://174.93.162.91:8080/UCzNolHig0VbauCEGbj0PHrg/-5T4Cjw46ys.mkv" length="201958119" type="video/x-matroska"/>
       <itunes:image href="https://i.ytimg.com/vi_webp/-5T4Cjw46ys/sddefault.webp"/>
+    </item>
+    <item>
+      <description><![CDATA[XDP (eXpress Data Path) is the new programmable in-kernel fast-path, which is placed as a layer before the existing Linux kernel network stack (netstack).
+
+We claim XDP is not kernel-bypass, as it is a layer before and it can easily fall-through to netstack. Reality is that it can easily be (ab)used to create a kernel-bypass situation, where non of the kernel facilities are used (in form of BPF-helpers and in-kernel tables). The main disadvantage with kernel-bypass, is the need to re-implement everything, even basic building blocks, like routing tables and ARP protocol handling.
+
+It is part of the concept and speed gain, that XDP allows users to avoid calling part of the kernel code. Users have the freedom to do kernel-bypass and re-implement everything, but the kernel should provide access to more in-kernel tables, via BPF-helpers, such that users can leverage other parts of the Open Source ecosystem, like router daemons etc.
+
+This talk is about how XDP can work in-concert with netstack, and proposal on how we can take this even-further. Crazy ideas like using XDP frames to move SKB allocation out of driver code, will also be proposed.
+
+Jesper Dangaard Brouer]]></description>
+      <category><![CDATA[Science & Technology]]></category>
+      <title><![CDATA[Kernel Recipes 2019 - XDP closer integration with network stack]]></title>
+      <guid>JgJQpcaaCR8</guid>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 -0000</pubDate>
+      <source>https://www.youtube.com/channel/UCzNolHig0VbauCEGbj0PHrg</source>
+      <author>hupstream</author>
+      <link>https://www.youtube.com/watch?v=JgJQpcaaCR8</link>
+      <enclosure url="http://174.93.162.91:8080/UCzNolHig0VbauCEGbj0PHrg/JgJQpcaaCR8.mkv" length="329059279" type="video/x-matroska"/>
+      <itunes:image href="https://i.ytimg.com/vi_webp/JgJQpcaaCR8/maxresdefault.webp"/>
+    </item>
+    <item>
+      <description><![CDATA[The PREEMPT_RT (aka real-time patch) started back in 2004. Since then, a lot of it has made it into the kernel. The only part left is the change of turning spinning locks into mutexes, then the merge of the PREEMPT_RT patch will be complete. This is expected to happen no later than the Q1 of 2020. But once it is in, how can you take advantage of it? This talk will discuss the basics of writing a real-time application, and some tricks to play with Linux configured with PREEMPT_RT.]]></description>
+      <category><![CDATA[Science & Technology]]></category>
+      <title><![CDATA[Embedded Recipes 2019 - RT is about to make it to mainline. Now what?]]></title>
+      <guid>sZMNm1o7FQw</guid>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 -0000</pubDate>
+      <source>https://www.youtube.com/channel/UCzNolHig0VbauCEGbj0PHrg</source>
+      <author>hupstream</author>
+      <link>https://www.youtube.com/watch?v=sZMNm1o7FQw</link>
+      <enclosure url="http://174.93.162.91:8080/UCzNolHig0VbauCEGbj0PHrg/sZMNm1o7FQw.mkv" length="385995400" type="video/x-matroska"/>
+      <itunes:image href="https://i.ytimg.com/vi/sZMNm1o7FQw/sddefault.jpg"/>
     </item>
   </channel>
 </rss>
